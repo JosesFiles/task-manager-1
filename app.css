@@ -1,0 +1,64 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin: 0.8rem 0;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    height: calc(100vh - 70px);
+    background-image: url(".image/sunrise.jpg");
+    background-size: cover;
+}
+
+#secList {
+    flex: 2;
+}
+
+#secForm {
+    flex: 1;
+}
+
+#footer {
+    background-color: aqua;
+}
+
+#planeIcon {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+#planeIcon.fa-plane {
+    color: red;
+}
+
+#btndetails {
+    text-align: right;
+}
+
+.task {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+}
+
+.task .description {
+    flex: 4;
+}
+
+.task label {
+    flex: 1;
+}
